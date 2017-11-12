@@ -1,0 +1,86 @@
+
+
+.center{
+	text-align: center;
+}
+
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+p	{
+	text-align: center;
+}
+
+
+/*
+.col-lg-4 {
+	 width:  390px;
+     height: 292.5px;
+     object-fit: cover;
+     overflow: hidden;
+}
+*/
+
+
+
+
+
+/* Change bootstrap collapse to include mobile and some styling*/
+@media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
+
+
+body{
+    color:gray;
+    background: #efefbb; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #efefbb, #d4d3dd); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #efefbb, #d4d3dd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+
+
+   
